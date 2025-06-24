@@ -1,0 +1,11 @@
+[package]
+name = "rust-hc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+log = "0.4.27"
+ipnet = { version = "2", features = ["serde"] }
+serde = "1.0.219"
+hostfile = "1.1.1"
